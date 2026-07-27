@@ -1,85 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Student Registration</title>
+    <title>Bello Cafe - Home</title>
 </head>
 
 <body>
 
-    <center>
+<center>
 
-        <h1>Student Registration Form</h1>
+<h1>BELLO CAFE</h1>
 
-        <form>
+<h3>Welcome to Bello Cafe</h3>
 
-            <label>Full Name:</label><br>
-            <input type="text" name="fullname" required>
-            <br><br>
+<p>
+Enjoy delicious food, refreshing drinks, and a beautiful rooftop atmosphere.
+</p>
 
-            <label>Email:</label><br>
-            <input type="email" name="email" required>
-            <br><br>
+<img src="cafe pic.jpg" width="700" height="450">
 
-            <label>Phone Number:</label><br>
-            <input type="tel"
-                   name="phone"
-                   pattern="[0-9]{10}"
-                   placeholder="Enter 10-digit number"
-                   required>
-            <br><br>
+<br><br>
 
-            <label>Date of Birth:</label><br>
-            <input type="date" name="dob" required>
-            <br><br>
+<h2>About Us</h2>
 
-            <label>Gender:</label><br>
-            <input type="radio" name="gender" value="Male" required>
-            Male
+<p>
+Bello Cafe is a rooftop cafe located near Saroornagar.
+It is a peaceful place where people can enjoy coffee,
+snacks, meals, desserts, and spend quality time with
+friends and family.
+</p>
 
-            <input type="radio" name="gender" value="Female">
-            Female
+<h2>Our Special Items</h2>
 
-            <input type="radio" name="gender" value="Other">
-            Other
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Burgers</li>
+    <li>Pizza</li>
+    <li>French Fries</li>
+    <li>Mocktails</li>
+    <li>Desserts</li>
+</ul>
 
-            <br><br>
+<h2>Opening Hours</h2>
 
-            <label>Course:</label><br>
-            <select name="course" required>
-                <option value="">-- Select Course --</option>
-                <option value="AIML">B.Tech AI & ML</option>
-                <option value="CSE">B.Tech CSE</option>
-                <option value="ECE">B.Tech ECE</option>
-            </select>
+<table border="1" cellpadding="10">
+<tr>
+<th>Day</th>
+<th>Time</th>
+</tr>
 
-            <br><br>
+<tr>
+<td>Monday - Sunday</td>
+<td>10:00 AM - 11:00 PM</td>
+</tr>
 
-            <label>Password:</label><br>
-            <input type="password"
-                   name="password"
-                   minlength="8"
-                   required>
-            <br><br>
+</table>
 
-            <label>Address:</label><br>
-            <textarea name="address"
-                      rows="4"
-                      cols="30"
-                      required></textarea>
+<br>
 
-            <br><br>
+<a href="login.html">
+<button>Login</button>
+</a>
 
-            <input type="checkbox" required>
-            I agree to the terms and conditions
-
-            <br><br>
-
-            <input type="submit" value="Register">
-            <input type="reset" value="Clear">
-
-        </form>
-
-    </center>
+</center>
 
 </body>
 </html>
